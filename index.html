@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" href="../imagem/logo.png" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300;500&family=Didact+Gothic&family=Libre+Franklin:wght@300&family=Manrope&family=Open+Sans&family=Poppins&family=Red+Hat+Display:wght@400;500&family=Urbanist&display=swap" rel="stylesheet">" 
-    <title>Site de Xadrez</title>
+    <title>NeuralTech</title>
+    
     <style>
 
         /* Reset de estilos para remover margens e preenchimentos padrão */
@@ -50,29 +52,31 @@
 
         }
         .logo:hover {
-             
-            font-size: 1.7rem;
-            color: #0c1138;
-            text-decoration: none;
-            font-weight: 550;
-            margin-left: 0;
-            transition: 0.2s;
-            margin-right: 3.5rem;
+            transform: scale(1.05);
+            
         }
         .navbar a {
-            font-size: 1.6rem;
+            width: 11vw;
+            height: 10vh;
+            font-size: 1.2rem;
             color: #1c245d;
             text-decoration: none;
             font-weight: 550;
-            margin-left: 2rem;
-            margin-right: 2rem;
             transition: 0.3s;
+            display: flex;
+            margin-right: auto;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            right: 5vh;
         }
         .navbar a:hover {
-            font-size: 1.6rem;
+            font-size: 1.4rem;
             transition: 0.3s;
             font-weight: 550;
             color: #a6356d;
+    
+           
         
          
         
@@ -151,6 +155,10 @@
     background-image: url(logo_black.png);
                     }
         
+                    .navbar {
+                        display: flex;
+                        gap: 25px;
+                    }
 
     </style>
 </head>
@@ -159,7 +167,8 @@
                 <img src="logo.png" class="logo">
         <nav class="navbar">
 
-                <a href="inicio.html">Home</a>
+                <a href="index.html">Home
+                </a>
                 <a href="registrar.html">Registrar</a>
                 <a href="entrar.html">Entrar</a>
                 <a href="cripto.html">Criptomoeda</a>
