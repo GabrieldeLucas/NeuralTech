@@ -10,9 +10,137 @@
         href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300;500&family=Didact+Gothic&family=Libre+Franklin:wght@300&family=Manrope&family=Open+Sans&family=Poppins&family=Red+Hat+Display:wght@400;500&family=Urbanist&display=swap"
         rel="stylesheet">"
     <link rel="stylesheet" type="text/css" href="referencias.css">
-    <link rel="stylesheet" type="text/css" href="main.css">
     <title>Site de Xadrez</title>
-   
+    <style>
+        /* Reset de estilos para remover margens e preenchimentos padrão */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: 0;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        body {
+            background-image: url(fundo.jpeg);
+            background-size: 100%;
+
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Estilos para o cabeçalho (header) */
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 1.3rem;
+            background: rgba(170, 77, 177, 0.056);
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 100;
+
+        }
+
+        .logo {
+            color: #FFF;
+            text-decoration: none;
+            transition: 0.6s;
+            width: 6%;
+
+        }
+
+        .logo:hover {
+
+            transition: 0.6s;
+        }
+
+        .navbar a {
+            font-size: 1.4rem;
+            color: #0c1138;
+            text-decoration: none;
+            font-weight: 550;
+            margin-left: 2rem;
+            transition: 0.2s;
+            margin-right: 3.5rem;
+        }
+
+        .navbar a:hover {
+            font-size: 1.45rem;
+            text-decoration: none;
+            transition: 0.3s;
+            font-weight: 900;
+            font-style: bold;
+
+
+
+
+        }
+
+        h1 {
+            font-size: 5rem;
+            color: #1c245d;
+            text-align: center;
+
+        }
+
+        b {
+            font-style: bold;
+            font-style: italic;
+            text-shadow: #FFF 0 0 30px;
+            transition: 0.6s;
+            text-decoration: solid;
+        }
+
+        b:hover {
+            color: black;
+            transition: 0.6s;
+            font-size: 3.9rem;
+            font-style: bold;
+            ;
+        }
+
+        p.paragrafo {
+            color: rgb(244, 244, 244);
+            padding: 5px;
+            text-align: center;
+            font-size: 1.4rem;
+            margin: 2.7%;
+            padding: 30px;
+            border-radius: 10px;
+            background: #36302eee;
+            box-shadow: inset 16px 16px 49px #626060,
+                inset -16px -16px 49px #0e0d0d;
+            text-shadow: #FFF 0 0 40px;
+
+        }
+
+        h1.caixa {
+            background-color: rgb(211, 209, 203);
+            text-shadow: none;
+
+            padding: 5px;
+            text-align: justify;
+            color: #000000;
+            font-size: 2rem;
+
+        }
+
+        .subtitulo2 {
+            font-size: 2.5rem;
+            color: #FFF;
+            text-align: center;
+            text-shadow:
+                -1px -1px 0px #000000,
+                -1px 1px 0px #000000,
+                1px -1px 0px #000000,
+                1px 0px 0px #000000;
+            text-shadow: #000 0 0 40px;
+
+        }
+    </style>
 </head>
 
 <body class="neve">
@@ -20,34 +148,30 @@
         <img src="logo.png" class="logo">
         <nav class="navbar">
 
-            <a href="index.html">Home</a>
-            <a href="registrar.html">Registrar</a>
-            <a href="entrar.html">Entrar</a>
-            <a href="cripto.html">Criptomoeda</a>
-            <a href="oquee.html">História</a>
-            <a href="quemsomos.html">Quem somos</a>
-            <a href="referencias.html">Referências</a>
+            <a href="inicio.html">Home</a>
+            <a href="historia.html">Registrar</a>
+            <a href="form.html">Entrar</a>
+            <a href="aprenda.html">Criptomoeda</a>
+            <a href="jogar.html">O que é</a>
+            <a href="ensinamentos.html">Quem somos</a>
         </nav>
-    </header><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    </header><br><br><br><br><br><br><br>
+
 
 
 
 
     <div class="refs">
         <div class="container">
-            <img src="imagem/Invest.png">
-            <h2> <a href="https://www.chess.com/pt-BR"> Invest News </a> </h2>
-            <p> Invest News é um site de notícias financeiras de destaque, oferecendo informações atualizadas e análises
-                abrangentes sobre finanças e negócios, abrangendo mercados de ações, moedas, investimentos, tecnologia
-                financeira e muito mais. </p> <br>
+            <img src="Invest.png">
+            <h2> <a href="https://investnews.com.br/"> Invest News </a> </h2>
+            <p> Invest News é um site de notícias financeiras de destaque, oferecendo informações atualizadas e análises abrangentes sobre finanças e negócios, abrangendo mercados de ações, moedas, investimentos, tecnologia financeira e muito mais. </p> <br>
         </div>
 
         <div class="container2">
-            <img src="imagem/MB.png">
-            <h2> <a href="https://getwaves.io/"> Mercado Bitcoin </a> </h2>
-            <p> O Mercado Bitcoin é uma plataforma brasileira que permite a compra, venda e negociação de criptomoedas,
-                incluindo o Bitcoin. É uma plataforma popular na América Latina para negociação de ativos digitais. </p>
-            <br>
+            <img src="MB.png">
+            <h2> <a href="https://www.mercadobitcoin.com.br/"> Mercado Bitcoin </a> </h2>
+            <p> O Mercado Bitcoin é uma plataforma brasileira que permite a compra, venda e negociação de criptomoedas, incluindo o Bitcoin. É uma plataforma popular na América Latina para negociação de ativos digitais. </p> <br>
         </div>
     </div>
 
@@ -56,20 +180,15 @@
     <div class="refs2">
 
         <div class="container3">
-            <img src="imagem/Uiverse.png">
-            <h2> <a href="https://www.soxadrez.com.br/conteudos/historia_xadrez/"> Uiverse </a> </h2>
-            <p>Uiverse é um site que oferece uma ampla variedade de códigos prontos para elementos de interface do
-                usuário (UI), usando tecnologias como CSS e Tailwind. Os desenvolvedores podem acessar e utilizar esses
-                códigos para agilizar o processo de design e desenvolvimento de interfaces atraentes e funcionais.</p>
-            <br>
+            <img src="Uiverse.png">
+            <h2> <a href="https://uiverse.io/"> Uiverse </a> </h2>
+            <p>Uiverse é um site que oferece uma ampla variedade de códigos prontos para elementos de interface do usuário (UI), usando tecnologias como CSS . Os desenvolvedores podem acessar e utilizar esses códigos para agilizar o processo e desenvolvimento de interfaces atraentes e funcionais.</p> <br>
         </div>
 
-        <div class="container4">
-            <img src="imagem/images (12).png">
-            <h2> <a href="https://pt.wikihow.com/Jogar-Xadrez"> wikiHow </a> </h2>
-            <p> O WikiHow é um site que fornece guias e tutoriais passo a passo sobre uma variedade de tópicos, ajudando
-                as pessoas a realizar várias tarefas cotidianas. Criado em 2005, ele é amplamente utilizado como uma
-                fonte confiável de informações práticas. </p> <br>
+       <div><div class="container4">
+            <img src="W3Schools2.png">
+            <h2> <a href="https://www.w3schools.com/"> W3schools </a> </h2>
+            <p> W3Schools é um site educacional voltado ao aprendizado de tecnologias web. Seu conteúdo inclui tutoriais e referências relacionadas a HTML, CSS, JavaScript, JSON, PHP, Python, AngularJS, SQL, Bootstrap, Node.js, jQuery, XQuery, AJAX, XML, e Java </p> <br>
         </div>
 
     </div>
