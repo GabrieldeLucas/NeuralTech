@@ -8,20 +8,22 @@
     <style>
       * {
         margin: 0px;
+        font-family: sans-serif;
       }
       body {
-        background-image: url(back.jpg);
+        background-image: url(1091511.jpg);
         background-position: center;
         background-position: cover;
         background-size: 100%;
         margin: 0;
         padding: 0;
+        
       }
       .container {
         width: 100vw;
         height: 100vh;
         position: relative;
-        background-image: url(fundo-entrar.png);
+        background-image: url(1091511.jpg);
         background-position: center;
         background-position: cover;
         background-size: 100%;
@@ -31,12 +33,14 @@
         justify-content: center;
         flex-direction: row;
         align-items: center;
+        
       }
 
       .box {
         position: absolute;
-        background-color: rgba(0, 0, 0, 0.5);
-        border: 1vh solid rgba(0, 0, 0, 0.2);
+        background-color: rgba(0, 0, 0, 0.767);
+        border: 1vh solid rgba(0, 0, 0, 0.689);
+       
         height: 80vh;
         width: 30vw;
         display: flex;
@@ -51,7 +55,7 @@
         border: none;
         border-radius: 1vh;
         outline: none;
-        box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.3);
+        box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.616);
         transition: 0.2s;
         padding-left: 1vh;
         font-size: 3vh;
@@ -144,7 +148,10 @@
         font-size: 2vh;
       }
       input[type="reset"]:hover {
-        transform: scale(1.05);
+        transform: scale(1.5);
+            color: #fff;
+            background-color: red;
+            font-style: bold;
       }
       .rodape {
         position: absolute;
@@ -154,8 +161,8 @@
         border-end-end-radius: 2vh;
         border-end-start-radius: 2vh;
         background-color: black;
-        border: 1vh solid rgba(0, 0, 0, 0.2);
-        background-color: rgba(0, 0, 0, 0.5);
+        border: 1vh solid rgba(0, 0, 0, 0.662);
+        background-color: rgba(0, 0, 0, 0.6);
         display: flex;
         align-items: center;
         justify-content: center;
@@ -169,9 +176,10 @@
         bottom: 30%;
         color: white;
         font-size: 4vh;
+        transition: 0.2s;
       }
       a:hover {
-        font-size: 5vh;
+        font-size: 4.5vh;
         transition: 0.2s;
       }
 
@@ -196,7 +204,7 @@
             style="margin-top: 6vh"
           /><br />
           <input type="email" name="email" placeholder="Endereço de e-mail"
-          maxlength="64" "><br />
+          maxlength="64" ><br />
           <input
             type="password"
             name="senha"
@@ -221,6 +229,7 @@
         <div class="rodape">
           <p>Não tem uma conta?</p>
           <a href="registrar.html">Registrar-se</a>
+          
         </div>
       </div>
     </div>

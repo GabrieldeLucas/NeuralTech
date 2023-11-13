@@ -1,213 +1,226 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300;500&family=Didact+Gothic&family=Libre+Franklin:wght@300&family=Manrope&family=Open+Sans&family=Poppins&family=Red+Hat+Display:wght@400;500&family=Urbanist&display=swap" rel="stylesheet">" 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300;500&family=Didact+Gothic&family=Libre+Franklin:wght@300&family=Manrope&family=Open+Sans&family=Poppins&family=Red+Hat+Display:wght@400;500&family=Urbanist&display=swap"
+        rel="stylesheet">"
     <title>Criptomoeda</title>
-    <style>
 
-        /* Reset de estilos para remover margens e preenchimentos padrão */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: 0;
-            font-family: 'Open Sans', sans-serif;
-        }
-       
-        body {
-            background-image: url(fundo.jpg);
-            background-position: center;
-            background-position: cover;
-            background-size: 500%;
-            margin: 0;
-            padding: 0;
-        }
-
-        /* Estilos para o cabeçalho (header) */
-        .header {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            padding: 1.3rem;
-            background: rgba(170, 77, 177, 0.036);
-            backdrop-filter: blur(20px);
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-            align-items:center;
-            z-index: 100;
-            
-        }
-        .logo {
-          color: #FFF;
-          text-decoration: none;
-          transition: 0.6s;
-          width: 6%;
-
-        }
-        .logo:hover {
-             
-            font-size: 1.7rem;
-            color: #0c1138;
-            text-decoration: none;
-            font-weight: 550;
-            margin-left: 0;
-            transition: 0.2s;
-            margin-right: 3.5rem;
-        }
-        .navbar a {
-            font-size: 1.6rem;
-            color: #1c245d;
-            text-decoration: none;
-            font-weight: 550;
-            margin-left: 2rem;
-            margin-right: 3.5rem;
-            transition: 0.3s;
-        }
-        .navbar a:hover {
-            font-size: 1.6rem;
-            transition: 0.3s;
-            font-weight: 550;
-            color: #a6356d;
-        
-         
-        
-            
-        }
-        #imagem {
-    box-shadow: #6d3d9b32 0 0 70px;
-    border-radius: 3%;
-}
-
-        
-        h1 { 
-            font-size: 5rem;
-            color: #1c245d;
-            text-align: center;  
-          
-        }
-        b {
-            font-style: bold;
-            font-style: italic;
-            text-shadow: #FFF 0 0 30px ;
-            transition: 0.6s;
-            text-decoration:solid;
-        }
-        b:hover {
-            color: black;
-            transition: 0.6s;
-            font-size: 3.9rem ;
-            font-style: bold;
-            ;
-        }
-
-        p.paragrafo {
-    color: rgb(0, 0, 0);
-        padding: 5px;
-        text-align:center;
-        font-size: 1.4rem;
-        margin: 2.7%;
-        padding: 30px;
-        border-radius: 10px;
-        background: #1f697215;
-        box-shadow:  16px 16px 29px #4139395f,
-            -16px -16px 29px #191d5413;
-            text-shadow: #FFF 0 0 40px;
-        
-}
-
-        h1.caixa {
-            background-color: rgb(211, 209, 203); 
-            text-shadow:none;
-               
-        padding: 5px;
-        text-align:justify;
-        color: #000000;
-        font-size: 2rem;
-        
-        }
-        .subtitulo2{
-            font-size: 2.5rem;
-            color: #FFF;
-            text-align: center;  
-            text-shadow: 
-               -1px -1px 0px #000000, 
-               -1px 1px 0px #000000,                    
-                1px -1px 0px #000000,                  
-                1px 0px 0px #000000;
-                text-shadow: #000 0 0 40px;
-        
-        }
-        
-         #fig1 {
-             background-image: url(logo.png);
-                }
-
-        #fig1:hover {
-    background-image: url(logo_black.png);
-                    }
-        
-
-    </style>
 </head>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-image: url(fundo.jpg);
+    background-position: center;
+    background-position: cover;
+    background-size: 400%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para o cabeçalho (header) */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1.3rem;
+    background: rgba(170, 77, 177, 0.036);
+    backdrop-filter: blur(20px);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    z-index: 100;
+    
+}
+.logo {
+  color: #FFF;
+  text-decoration: none;
+  transition: 0.6s;
+  width: 6%;
+
+}
+.logo:hover {
+    transform: scale(1.05);
+    
+}
+.navbar a {
+    width: 11vw;
+    height: 10vh;
+    font-size: 1.2rem;
+    color: #1c245d;
+    text-decoration: none;
+    font-weight: 550;
+    transition: 0.3s;
+    display: flex;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 5vh;
+}
+.navbar a:hover {
+    font-size: 1.4rem;
+    transition: 0.3s;
+    font-weight: 550;
+    color: #a6356d;
+
+   
+
+ 
+
+    
+}
+#imagem {
+box-shadow: #6d3d9b32 0 0 70px;
+border-radius: 3%;
+}
+
+
+h1 { 
+    font-size: 5rem;
+    color: #1c245d;
+    text-align: center;  
+  
+}
+b {
+    font-style: bold;
+    font-style: italic;
+    text-shadow: #FFF 0 0 30px ;
+    transition: 0.6s;
+    text-align: center;
+    text-decoration:solid;
+}
+
+p.paragrafo {
+color: rgb(0, 0, 0);
+padding: 5px;
+text-align:center;
+font-size: 1.4rem;
+margin: 2.7%;
+padding: 30px;
+
+border-radius: 10px;
+background: #1f697215;
+box-shadow:  16px 16px 29px #4139395f,
+    -16px -16px 29px #191d5413;
+    text-shadow: #FFF 0 0 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    letter-spacing: 0.7px;
+
+}
+
+
+.subtitulo1 {
+    text-align: center;
+}
+
+
+h1.caixa {
+    background-color: rgb(211, 209, 203); 
+    text-shadow:none;
+       
+padding: 5px;
+text-align:justify;
+color: #000000;
+font-size: 2rem;
+
+}
+.subtitulo2{
+    font-size: 2.5rem;
+    color: #FFF;
+    text-align: center;  
+    text-shadow: 
+       -1px -1px 0px #000000, 
+       -1px 1px 0px #000000,                    
+        1px -1px 0px #000000,                  
+        1px 0px 0px #000000;
+        text-shadow: #000 0 0 40px;
+
+}
+
+ #fig1 {
+     background-image: url(logo.png);
+        }
+
+#fig1:hover {
+background-image: url(logo_black.png);
+            }
+
+            .navbar {
+                display: flex;
+                gap: 25px;
+            }
+    .texto {
+        margin-left: auto;
+    }
+</style>
 <body>
     <header class="header">
-                <img src="logo.png" class="logo">
+        <img src="logo.png" class="logo">
         <nav class="navbar">
 
-                <a href="index.html">Home</a>
-                <a href="registrar.html">Registrar</a>
-                <a href="entrar.html">Entrar</a>
-                <a href="cripto.html">Criptomoeda</a>
-                <a href="oquee.html">O que é</a>
-                <a href="quemsomos.html">Quem somos</a>
+            <a href="index.html">Home</a>
+            <a href="registrar.html">Registrar</a>
+            <a href="entrar.html">Entrar</a>
+            <a href="cripto.html">Criptomoeda</a>
+            <a href="oquee.html">História</a>
+            <a href="quemsomos.html">Quem somos</a>
+            <a href="referencias.html">Referências</a>
         </nav>
     </header><br><br><br><br><br><br><br>
-    <center><h1> O que é?</h1></center><br><br><br>
-   <center> <img src="imagem/moeda.png"></center><br><br><br><br><br><br><br>
-    <pre><p class="paragrafo">
-        Bitcoin é uma criptomoeda descentralizada que surge como uma alternativa às tradicionais moedas fiduciárias. 
-        Criado em 2009 por um programador (ou grupo de programadores) conhecido como Satoshi Nakamoto,
-        o Bitcoin tem como principal objetivo ofereceruma forma de pagamento digital segura, rápida e eficiente.
-        Diferente das moedas convencionais emitidas por governos,o Bitcoin utiliza a tecnologia blockchain para 
-        registrar e verificar todas as transações realizadas. A blockchain é um registro público de todas 
-        as transações já feitas com a moeda, que fica armazenado em milhares de computadores ao redor do mundo.
-        Isso torna o Bitcoin transparente e imutável, garantindo a segurança das transações.
+    <center>
+        <h1>História</h1>
+    </center><br><br><br>
 
-          Uma das características mais marcantes do Bitcoin é a descentralização.
-         Enquanto as moedas tradicionais são controladas por bancos centrais e
-         governos, o Bitcoin é gerenciado por uma rede de usuários chamada de mineradores.
-         Esses mineradores utilizam seu poder de processamento
-         para resolver problemas matemáticos complexos e, em troca,
-         são recompensados com novas unidades de Bitcoin. 
-         Essa descentralização elimina a necessidade de intermediários, 
-         reduzindo custos e tornando as transações mais rápidas e eficientes.
+    <p class="paragrafo">
+        <b>a Segurança da Revolução P2P: Um Escudo contra Confiscações Financeiras</b><br>
 
-        Outra característica importante do Bitcoin é a escassez. Diferente das moedas tradicionais, 
-        que podem ser impressas a qualquer momento pelos governos, o Bitcoin possui um limite máximo de
-        21 milhões de unidades. Esse limite garante que a moeda seja deflacionária, ou seja, tende a aumentar
-        de valor ao longo do tempo. Isso tem atraído investidores que veem no Bitcoin uma forma de proteger
-        seu patrimônio da inflação e da desvalorização das moedas convencionais.
+        Em um mundo onde a privacidade financeira se tornou uma alegria rara, as redes ponto a ponto 
+        (P2P) emergem como a guarda da autonomia. Ao contrário do sistema tradicional, exemplificado 
+        pelo confisco da poupança durante o governo Collor, as redes P2P destacam-se pela segurança
+         proporcionada pela ausência de intermediários intrusivos.<br><br>
+        
+        <b>Independência Diante da Fiscalização Estatal:</b><br>
+        
+        Em um capítulo marcante da história brasileira, durante o governo Collor, no dia 16 de março
+         de 1990 houve o confisco da poupança buscava conter a hiperinflação. Contudo, as medidas
+          extremas trouxeram consequências negativas, como o fechamento de empresas e o aumento do
+           desemprego. Contrastando com essa abordagem, as redes P2P oferecem um escudo eficaz contra
+            a fiscalização estatal. Ao adotar criptomoedas descentralizadas, como as baseadas em P2P, 
+            os cidadãos ganham independência, tornando seus ativos praticamente imunes a confiscos governamentais.<br><br>
+        
 
-        Além de ser uma forma de pagamento,
-        o Bitcoin também tem sido utilizado como reserva de valor e investimento. 
-        Com o passar dos anos, sua aceitação tem aumentado 
-        e é possível encontrar cada vez mais estabelecimentos
-        que aceitam Bitcoin como pagamento.
-        Além disso, surgiram diversas plataformas de compra 
-        e venda de Bitcoin, facilitando o acesso à moeda para pessoas comuns.
-
-          Apesar de todas as vantagens, é importante mencionar que o Bitcoin também enfrenta desafios. 
-         A volatilidade do seu preço é uma das principais críticas, tornando-o mais arriscado como investimento.
-         Além disso, questões regulatórias e de segurança ainda precisam ser 
-        endereçadas para que o Bitcoin se torne uma moeda amplamente aceita e confiável.
-
-        Em resumo, o Bitcoin é uma criptomoeda descentralizada que utiliza a tecnologia 
-        blockchain para garantir transações seguras e eficientes.
-        Com seu conceito inovador e promissor, o Bitcoin está mudando a 
-        forma como vemos o sistema monetário tradicional
-        e abre caminho para uma nova era de transações financeiras.</p></pre><br><br><br>
+       <b> A Resistência P2P no Mundo:</b><br>
+        
+        O Brasil não está sozinho nessa busca por autonomia financeira. Em diferentes partes 
+        do mundo, eventos semelhantes ocorreram em resposta à instabilidade econômica. As redes
+        
+        P2P, ágil como uma resposta eficiente, permitem que os indivíduos resistam ao controle
+        
+        financeiro excessivo. Optar por sistemas que transcendem fronteiras torna-se crucial,
+         desafiando as estruturas tradicionais.<br><br>
+        
+        <b>Liberdade sem Fronteiras:</b><br>
+        
+        A revolução P2P propõe uma visão de liberdade sem fronteiras. Eliminando intermediários
+         como bancos e governos, as transações tornam-se mais rápidas, seguras e, acima de tudo, 
+         privadas. A tecnologia P2P não apenas protege contra confiscos, mas também capacita os
+          indivíduos, oferecendo controle direto sobre seus ativos.<br></p>
+    <br><br><br>
+    </body>
+    </html>

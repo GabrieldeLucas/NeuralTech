@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-image: url(fundo.jpg);
+    background-position: center;
+    background-position: cover;
+    background-size: 400%;
+    margin: 0;
+    justify-content: center;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    z-index: 1;
+
+}
+
+.container .card   {
+    position: relative;
+    width: 280px;
+    height: 400px;
+    margin: 30px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    background: rgba(7, 24, 50, 0.26);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255,255,255, 0.5);
+    border-left: 1px solid rgba(255,255,255, 0.5);
+}
+
+.container .card .content {
+    padding: 20px;
+    text-align: center;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.5s;
+
+}
+.container .card:hover .content {
+    transform: translateY(0px);
+    opacity: 1;
+
+}
+.container .card .content h2 {
+    position: absolute;
+    top: -80px;
+    right: 30px;
+    font-size: 10em;
+    color: rgba(255, 255, 255, 0.159);
+    pointer-events: none;
+
+}
+.container .card .content h3 {
+    font-size: 1.8em;
+    color: #FFF;
+    z-index: 1;
+}
+.container .card .content p {
+    font-size: 1em;
+    color: #FFF;
+    font-weight: 200;
+}
+.container .card .content a {
+    position: relative;
+    display: inline-block;
+    padding: 8px 20px;
+    margin-top: 15px;
+    background: #FFF;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.329);
+
+
+}
+/* Estilos para o cabeçalho (header) */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1.3rem;
+    background: rgba(170, 77, 177, 0.036);
+    backdrop-filter: blur(20px);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    z-index: 100;
+    
+}
+.logo {
+  color: #FFF;
+  text-decoration: none;
+  transition: 0.6s;
+  width: 6%;
+
+}
+.logo:hover {
+    transform: scale(1.05);
+    
+}
+.navbar a {
+    width: 11vw;
+    height: 10vh;
+    font-size: 1.2rem;
+    color: #1c245d;
+    text-decoration: none;
+    font-weight: 550;
+    transition: 0.3s;
+    display: flex;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 5vh;
+}
+.navbar a:hover {
+    font-size: 1.4rem;
+    transition: 0.3s;
+    font-weight: 550;
+    color: #a6356d;
+
+   
+
+ 
+
+    
+}
+#imagem {
+box-shadow: #6d3d9b32 0 0 70px;
+border-radius: 3%;
+}
+
+
+h1 { 
+    font-size: 5rem;
+    color: #1c245d;
+    text-align: center;  
+  
+}
+b {
+    font-style: bold;
+    font-style: italic;
+    text-shadow: #FFF 0 0 30px ;
+    transition: 0.6s;
+    text-decoration:solid;
+}
+b:hover {
+    color: black;
+    transition: 0.6s;
+    font-size: 3.9rem ;
+    font-style: bold;
+    ;
+}
+
+
+.paragrafo {
+color: rgb(0, 0, 0);
+padding: 5px;
+text-align:center;
+font-size: 1.4rem;
+margin: 2.7%;
+padding: 30px;
+border-radius: 10px;
+background: #1f697215;
+box-shadow:  16px 16px 29px #4139395f,
+    -16px -16px 29px #191d5413;
+    text-shadow: #FFF 0 0 40px;
+
+}
+
+h1.caixa {
+    background-color: rgb(211, 209, 203); 
+    text-shadow:none;
+       
+padding: 5px;
+text-align:justify;
+color: #000000;
+font-size: 2rem;
+
+}
+.subtitulo2{
+    font-size: 2.5rem;
+    color: #FFF;
+    text-align: center;  
+    text-shadow: 
+       -1px -1px 0px #000000, 
+       -1px 1px 0px #000000,                    
+        1px -1px 0px #000000,                  
+        1px 0px 0px #000000;
+        text-shadow: #000 0 0 40px;
+
+}
+
+ #fig1 {
+     background-image: url(logo.png);
+        }
+
+#fig1:hover {
+background-image: url(logo_black.png);
+            }
+
+            .navbar {
+                display: flex;
+                gap: 25px;
+            }
