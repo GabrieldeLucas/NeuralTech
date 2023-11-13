@@ -153,8 +153,13 @@ h1 {
     font-size: 5rem;
     color: #1c245d;
     text-align: center; 
+    transform: translateY(100px);
+    opacity: 1;
   
 }
+h1:hover {
+     transform: translateY(0px);
+    opacity: 0;
 b {
     font-style: bold;
     font-style: italic;
