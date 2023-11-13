@@ -201,11 +201,13 @@ font-size: 2rem;
 
 .transicao {
      transform: translateY(100px);
-    opacity: 0;
+    opacity: 1;
+    transition: 0.5s;
 }
 .transicao:hover {
      transform: translateY(0px);
-    opacity: 1;
+    opacity: 0;
+    transition: 0.5s;
 }
 .subtitulo2{
     font-size: 2.5rem;
