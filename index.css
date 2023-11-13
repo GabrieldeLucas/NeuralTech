@@ -206,6 +206,7 @@ font-size: 2rem;
 .transicao:hover {
      transform: translateY(0px);
     opacity: 1;
+}
 .subtitulo2{
     font-size: 2.5rem;
     color: #FFF;
