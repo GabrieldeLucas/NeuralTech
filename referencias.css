@@ -12,10 +12,10 @@ a, a:active {
 
   .refs {
     position: relative;
-  
   }
   
   .container {
+    height: 270px;
     display: flex;
     margin-left: 15%;
     background-color: #302e2b;
@@ -32,7 +32,7 @@ a, a:active {
   }
   
   .container a {
-    transition: 0.5s all;
+    /* transition: 0.5s all; */
   }
   
   .container img {
@@ -51,6 +51,7 @@ a, a:active {
   }
   
   .container2 {
+    height: 270px;
     display: flex;
     margin-left: 60%;
     background-color: whitesmoke;
@@ -91,6 +92,7 @@ a, a:active {
   }
   
   .container3 {
+    height: 270px;
     display: flex;
     margin-left: 15%;
     margin-top: 23%;
@@ -126,17 +128,18 @@ a, a:active {
   }
   
   .container4 {
+    height: 270px;
     display: flex;
     margin-left: 60%;
     margin-top: 23%;
-    background-color: #5f945f;
-    box-shadow: 5px 5px #93B874;
+    background-color: #ffffff;
+    box-shadow: 5px 5px #04AA6D;
     width: 350px;
     flex-direction: column;
     align-items: center;
     text-align: center;
     transition: 0.5s all;
-    color: white;
+    color: black;
     position: absolute;
     top: 0;
     animation: animacao1 1s ease-in-out;
@@ -144,20 +147,21 @@ a, a:active {
   
   .container4 a {
     transition: 0.5s all;
+    color: black;
   }
   
   .container4 img {
-    width: 180px;
+    width: 50px;
     /* Largura da imagem */
-    height: 40px;
+    height: 50px;
     /* Altura da imagem */
-    padding-top: 10px;
-    padding-bottom: 7px;
     margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   
   .container4 a:hover {
-    color: #93B874;
+    color: #04AA6D;
     font-size: 2rem;
     transition: 0.5s all;
   }
